@@ -72,7 +72,7 @@ holiday_hash.each do |season, holiday_with_supplies|
     holiday_name.each do |word|
       word.capitalize!
     end
-    
+    new_holiday = 
 end
 
 def all_holidays_with_bbq(holiday_hash)
