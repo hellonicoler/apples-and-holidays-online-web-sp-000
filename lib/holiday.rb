@@ -85,6 +85,10 @@ bbq_array = []
 holiday_hash.each do |holiday, supplies|
   if supplies.include?("BBQ")
     bbq_array << holiday
+  end
+end
+end
+bbq_array
 end
 
 
