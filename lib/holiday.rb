@@ -71,6 +71,8 @@ holiday_hash.each do |season, holiday_with_supplies|
     holiday_name = holiday.to_s.split(" ")
     holiday_name.each do |word|
       word.capitalize!
+    end
+    
 end
 
 def all_holidays_with_bbq(holiday_hash)
